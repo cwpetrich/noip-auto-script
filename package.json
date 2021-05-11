@@ -1,0 +1,25 @@
+{
+  "name": "noip-auto-script",
+  "version": "1.0.0",
+  "description": "Periodically check to see if your publid IP has changed and if it has update it. Option to automatically confirm free account domains.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node -r dotenv/config index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "noip",
+    "auto",
+    "update",
+    "confirm"
+  ],
+  "author": "Conrad Petrich",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "dotenv": "^9.0.2"
+  }
+}
