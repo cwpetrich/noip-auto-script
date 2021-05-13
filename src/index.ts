@@ -35,7 +35,7 @@ async function updateIp() {
 }
 
 // This is a cron job for updating your domains to have the correct public facing ip of the network the machine is currently running on
-// Scheduled to run every 4 hours by default
+// Scheduled to run every 10 seconds by default
 schedule("*/10 * * * * *", async () => {
   try {
     await updateIp();
